@@ -85,6 +85,7 @@ const showMoves = data => {
     data.moves.forEach(move => {
         const moveName = document.createElement("div");
         moveName.textContent = move.move.name;
+        moveName.style.color = "white";
         pokeMoves.append(moveName);
     });
 }
