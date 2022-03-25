@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    margin: 10% auto;
+    max-width: 700px;
+    justify-content: space-between;
+}
+
+header {
+    border: solid 1px red;
+}
+
+.container {
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    width: 50%;
+    height: 360px;
+    padding: 10px;
+    margin: 0 auto;
+    background: linear-gradient(#e67584, #f0495f);
+}
+
+.left {
+    padding: 10px;
+    margin: 10px;
+}
+
+div.container {
+    border: solid 1px red;
+}
+
+.container div {
+    margin: 1px 0;
+}
+
+#Type div {
+    border: dashed 1px grey;
+}
+
+
+#Stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+}
+
+#Moves {
+    max-height: 20px;
+    overflow: scroll;
+}
+
+button {
+    border-radius: 50%;
+    background-color: blue;
+    color: wheat;
+}
+
+input {
+    color: white;
+    background-color: rgb(165, 44, 119);
+    text-align: center;
+}
+
+input::placeholder {
+    color: wheat;
+}

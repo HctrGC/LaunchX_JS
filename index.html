@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+        <title>Pokédex</title>
+    </head>
+    <body>
+
+        <header class="container">
+            <input type="text" name="inputName" id="inputName" placeholder="Pikachu" autocomplete="off" class="left">
+            <button type="submit" onclick="fetchPokemon()" class="left">Buscar</button>
+            <img src="./silhouette.png" alt="Pokemon" id="pokeImg" width="200px" class="left">
+        </header>
+        
+        <div class="container">
+            <div id="Name"></div>
+            <div id="Id"></div>
+            <div id="Type"></div>
+            <div id="Stats"></div>
+            <div id="Moves"></div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
